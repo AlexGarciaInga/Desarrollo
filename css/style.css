@@ -3,13 +3,13 @@ table{
     width: 75%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-<!--Método Cascada-->
+/*Método de Cascada*/
 .menu{
     list-style: none;
 }
 .menu li{
     display: inline;
-    margin-inline: 15px;
+    margin-inline: 15px; /*Separa entre elementos li*/
 }
 .menu li a{
     text-decoration: none;
@@ -20,4 +20,26 @@ table{
     width: 100%; 
     height: 800px;
     border-radius: 5px;
+}
+.img{
+    width: 300px;
+    height: 100%;
+    border-radius: 5%;
+}
+.title{
+    text-align: center;
+    color: rgb(103, 170, 27);
+    font-weight: bold;
+    font-size: 20px;
+}
+.uva{
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+}
+p{
+    padding-right: 15px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 16px;
 }
