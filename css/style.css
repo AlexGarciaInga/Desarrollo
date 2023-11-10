@@ -31,6 +31,7 @@ table{
     color: rgb(103, 170, 27);
     font-weight: bold;
     font-size: 20px;
+    padding: 10px;
 }
 .uva{
     text-align: center;
@@ -42,4 +43,12 @@ p{
     text-align: justify;
     font-weight: bold;
     font-size: 16px;
+}
+.zone{
+    text-align: center;
+    padding: 15px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
