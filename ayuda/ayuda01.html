@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario | Demo</title>
+    <style>
+        table{
+            width: 40%; /*Tamaño de la página*/
+            margin: 0 auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .button, input[type=button]{
+            background-color: blue; 
+            color: white;
+            font-weight: bold;
+            border-radius: 15px;
+            border: none;
+            width: 50%;
+            height: 25px;
+            cursor: pointer;
+            opacity: 1;
+        }
+        .button:hover, input[type=button]:hover { /*Cuando el cursor está encima*/
+            opacity: 0.75;
+            border: none;
+        }
+        input[type=text], select{
+            background-color: rgb(202, 202, 252);
+            padding: 7px;
+            width: 100%;
+            border: none;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        body{
+            font-size: 20px;
+            background-image: url(../img/portada.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <caption style="padding: 15px;">Registro de Productos</caption>
+            <!--Primera Fila-->
+            <tr>
+                <td>Producto</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <!--Segunda Fila-->
+            <tr>
+                <td>Categoría</td>
+                <td><select name="" id="" style="width: 150px;">
+                    <option value="1">Lácteos</option>
+                    <option value="2">Vinos</option>
+                    <option value="3">Verduras</option>
+                    <option value="4">Carnes</option>
+                    <option value="5">Golosinas</option>
+                </select></td>
+            </tr>
+            <!--Tercera Fila-->
+            <tr>
+                <td>Precio</td>
+                <td><input type="text" name="" id="" style="width: 100px;"></td>
+            </tr>
+            <!--Cuarta Fila-->
+            <tr>
+                <td>Stock</td>
+                <td><input type="text" name="" id="" style="width: 100px;"></td>
+            </tr>
+            <tr>
+                <td><button type="button" class="button">Aceptar</button></td>
+                <td><input type="button" value="Cancelar" style="width: 150px;" class="button"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
